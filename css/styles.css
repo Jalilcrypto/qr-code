@@ -1,0 +1,57 @@
+body {
+  background-color: #CFD2CF;
+  font-family: 'Outfit', sans-serif;
+  margin: auto;
+  text-align: center;
+  width: inherit;
+
+}
+
+p {
+  font-size: 35px;
+}
+
+.top {
+  background-color: #EAF6F6;
+  border-radius: 30px;
+  height: 1000px;
+  width: 650px;
+  margin: 200px 170px 250px auto;
+}
+
+.img {
+  border-radius: 20px;
+  margin-top: 30px;
+
+}
+
+
+.one {
+  color: #06283D;
+  text-align: center;
+  font-weight: 700;
+  margin: auto 30px;
+  padding-top: 50px;
+
+}
+
+.two {
+  color: #D8D2CB;
+  font-weight: 400;
+  margin: auto 30px;
+  padding-top: 30px;
+}
+
+/* For Mobile */
+@media screen and (max-width: 400px) {
+    .view {
+        width: 375px;
+}
+}
+
+/* For Desktops */
+@media screen and (min-width: 540px) and (max-width: 1450px) {
+    .view {
+        width: 1440px;
+    }
+}
